@@ -25,10 +25,16 @@ Applies the sysctl configuration changes.
 
 Creates a `hybla.modules` file to automatically load the `tcp_hybla` module:
 
+```sudo mkdir /etc/sysconfig/modules
+sudo touch /etc/sysconfig/modules/hybla.modules```
+
 ```bash
 #!/bin/sh
 /sbin/modprobe tcp_hybla 
 ```  
+
+```chmod +x /etc/sysconfig/modules/hybla.modules```
+
 
 Applies execute permissions:
 
