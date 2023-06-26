@@ -1,50 +1,81 @@
-# Setting up Hybla
+Here's the markdown version:
 
-```markdown
-**lsmod | grep hybla**
+```
+### Step 1: Check for Hybla
 
-Step 2: Setting up Hybla  
+To check if Hybla has been loaded, use the following command:
 
-View the available congestion algorithms using the command below. Once Hybla has been loaded, it will appear.  
-
-**sysctl net.ipv4.tcp_available_congestion_control**
-
-Add the following lines to */etc/sysctl.conf*.
+```
+lsmod | grep hybla
 ```
 
-The config lines are omitted for brevity.
+### Step 2: Setting up Hybla
 
-``` markdown
-Use the command to enable the change.
+View the available congestion algorithms using the command below. Once Hybla has been loaded, it will appear.
 
-**sysctl -p**  
+```
+sysctl net.ipv4.tcp_available_congestion_control
+```
+
+Add the following lines to `/etc/sysctl.conf`.
+
+```
+net.ipv4.tcp_syncookies = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_fin_timeout = 30
+net.ipv4.tcp_keepalive_time = 1200
+net.ipv4.ip_local_port_range = 10000 65000
+net.ipv4.tcp_max_syn_backlog = 8192
+net.ipv4.tcp_max_tw_buckets = 5000
+net.core.rmem_max = 67108864
+net.core.wmem_max = 67108864
+net.ipv4.tcp_rmem = 4096 87380 67108864
+net.ipv4.tcp_wmem = 4096 65536 67108864
+net.core.netdev_max_backlog = 250000
+net.ipv4.tcp_mtu_probing=1
+net.ipv4.tcp_congestion_control=hybla
+```
+
+Use the following command to enable the changes:
+
+```
+sysctl -p
+```
 
 Hybla is now enabled.
 
-You can also use the following steps to automatically enable this algorithm.   
+You can also use the following steps to automatically enable this algorithm.
 
-Add a hybla.modules file to the */etc/sysconfig/modules* directory and enter the content below:
+Add a `hybla.modules` file to the `/etc/sysconfig/modules` directory and enter the content below:
 
-```bash
-#!/bin/sh  
+```
+#!/bin/sh
 /sbin/modprobe tcp_hybla
 ```
 
-```markdown  
 Then grant the file execution privileges:
 
-**chmod +x hybla.modules**  
+```
+chmod +x hybla.modules
+```
 
-**sudo nano /etc/modules-load.d/hybla.conf**
+Use the following command to create a new file named `hybla.conf` in the `/etc/modules-load.d/` directory:
 
-This will open a text editor (nano) and create a new file named `hybla.conf` in the `/etc/modules-load.d/` directory.
+```
+sudo nano /etc/modules-load.d/hybla.conf
+```
 
-```bash
+Add the following line to the file:
+
+```
 tcp_hybla
 ```
 
-```markdown
 This will tell the system to load the `tcp_hybla` module at boot time.
 
-**cat /proc/sys/net/ipv4/tcp_congestion_control** 
+To check if Hybla is now the selected congestion control algorithm, use the following command:
+
+```
+cat /proc/sys/net/ipv4/tcp_congestion_control
 ```
