@@ -1,29 +1,51 @@
-Here is the markdown text:
+Here is the markdown with code blocks:
 
-```
+# Checking if Hybla is loaded
+
+```bash
 lsmod | grep hybla
+```
+Checks if the `hybla` kernel module is loaded.  
 
-Step 2: Setting up Hybla
+## Setting up Hybla
 
-sysctl net.ipv4.tcp_available_congestion_control  
+```bash
+sysctl net.ipv4.tcp_available_congestion_control
+```
+Views the available TCP congestion control algorithms, including `hybla` once loaded.
 
-net.ipv4.tcp_syncookies = 1  
-net.ipv4.tcp_tw_reuse = 1 
-net.ipv4.tcp_tw_recycle = 1
-net.ipv4.tcp_fin_timeout = 30
-net.ipv4.tcp_keepalive_time = 1200
-net.ipv4.ip_local_port_range = 10000 65000  
-net.ipv4.tcp_max_syn_backlog = 8192   
-net.ipv4.tcp_max_tw_buckets = 5000
-net.core.rmem_max = 67108864    
-net.core.wmem_max = 67108864
-net.ipv4.tcp_rmem = 4096 87380 67108864
-net.ipv4.tcp_wmem = 4096 65536 67108864
-net.core.netdev_max_backlog = 250000  
-net.ipv4.tcp_mtu_probing=1
-net.ipv4.tcp_congestion_control=hybla
+Adds configuration lines to `/etc/sysctl.conf` to enable Hybla settings.
 
+```bash
 sysctl -p
 ```
+Applies the sysctl configuration changes.
 
-Hope this helps! Let me know if you have any other questions.
+## Automatically enabling Hybla
+
+Creates a `hybla.modules` file to automatically load the `tcp_hybla` module:
+
+```bash
+#!/bin/sh
+/sbin/modprobe tcp_hybla 
+```  
+
+Applies execute permissions:
+
+`chmod +x hybla.modules`
+
+Creates a file to load the `tcp_hybla` module at boot:
+
+```bash
+sudo nano /etc/modules-load.d/hybla.conf
+```
+
+```
+tcp_hybla
+```
+
+Verifies Hybla is enabled:
+
+```bash
+cat /proc/sys/net/ipv4/tcp_congestion_control
+```
