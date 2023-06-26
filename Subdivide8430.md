@@ -2,7 +2,8 @@ Here is the markdown with code blocks:
 
 # Checking if Hybla is loaded
 
-```bash
+```
+bash
 lsmod | grep hybla
 ```
 Checks if the `hybla` kernel module is loaded.  
@@ -25,15 +26,20 @@ Applies the sysctl configuration changes.
 
 Creates a `hybla.modules` file to automatically load the `tcp_hybla` module:
 
-```sudo mkdir /etc/sysconfig/modules
-sudo touch /etc/sysconfig/modules/hybla.modules```
+```
+sudo mkdir /etc/sysconfig/modules
+sudo touch /etc/sysconfig/modules/hybla.modules
+```
 
-```bash
+```
+bash
 #!/bin/sh
 /sbin/modprobe tcp_hybla 
 ```  
 
-```chmod +x /etc/sysconfig/modules/hybla.modules```
+```
+chmod +x /etc/sysconfig/modules/hybla.modules
+```
 
 
 Applies execute permissions:
