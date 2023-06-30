@@ -6,6 +6,9 @@
 
 # summery 2
 
-`This text describes a technical issue with configuring a VPS for two-way authentication using a private CA. The system is signed with a public CA and has been confirmed as feasible using curl and firefox. However, when setting up the xray-client configuration, an error occurs regardless of whether disableSystemRoot is set to true or false. Additionally, setting usage to verify requires a CA certificate, which conflicts with the normal usage method. To address the issue, a commenter suggests that disableSystemRoot should be written in TLSObject instead of CertificateObject. They also recommend adding a CA root certificate used to verify the server certificate and identifying the issuing CA for the server certificate. Error logs are needed for further analysis. Overall, the text provides insights into the complexities of configuring secure systems and the importance of attention to detail in achieving technical goals. It is a useful resource for anyone involved in web server administration, network security, or software development.`
+`Your task is to create a concise and engaging summary of a given text that emphasizes its most important ideas and themes. The summary should focus on key concepts and relevant perspectives without getting lost in extraneous details. Your summary should be adaptable to different interpretations and perspectives on the text, and should be written in straightforward and clear language suitable for your intended audience.
 
+Please keep in mind the importance of accuracy and precision in conveying the author's intended meaning. Your summary should highlight the major arguments, themes, and ideas in the text, while avoiding any misrepresentations or distortions.
+
+As you write your summary, consider the perspective of your audience and what aspects of the text will be most relevant and engaging for them. Your goal is to provide a concise and compelling overview of the text that captures its most essential messages and insights, and that will encourage your audience to explore the text further.`
 
