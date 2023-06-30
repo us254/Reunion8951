@@ -6,9 +6,5 @@
 
 # summery 2
 
-`Your task is to create a concise and engaging summary of a given text that emphasizes its most important ideas and themes. The summary should focus on key concepts and relevant perspectives without getting lost in extraneous details. Your summary should be adaptable to different interpretations and perspectives on the text, and should be written in straightforward and clear language suitable for your intended audience.
-
-Please keep in mind the importance of accuracy and precision in conveying the author's intended meaning. Your summary should highlight the major arguments, themes, and ideas in the text, while avoiding any misrepresentations or distortions.
-
-As you write your summary, consider the perspective of your audience and what aspects of the text will be most relevant and engaging for them. Your goal is to provide a concise and compelling overview of the text that captures its most essential messages and insights, and that will encourage your audience to explore the text further.`
+`Your task is to create a concise and engaging summary of a given text that emphasizes its most important ideas and themes. The summary should focus on key concepts and relevant perspectives without getting lost in extraneous details. Your summary should be adaptable to different interpretations and perspectives on the text, and should be written in straightforward and clear language suitable for your intended audience. Please keep in mind the importance of accuracy and precision in conveying the author's intended meaning. Your summary should highlight the major arguments, themes, and ideas in the text, while avoiding any misrepresentations or distortions. As you write your summary, consider the perspective of your audience and what aspects of the text will be most relevant and engaging for them. Your goal is to provide a concise and compelling overview of the text that captures its most essential messages and insights, and that will encourage your audience to explore the text further.`
 
