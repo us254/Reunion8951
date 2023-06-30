@@ -1,10 +1,3 @@
-# summary
-
-
-`Follow this strategy to summarize any text effectively and concisely, adhering to these guidelines: 1. Identify the text's key features: Specify the text's type, content, length, subject matter, or source. 2. Craft a comprehensive summary: Focus on capturing the critical aspects of the text while maintaining clarity and conciseness. 3. Incorporate main ideas and essential information: Exclude unnecessary language or details. 4. Stay within the text's scope: Refrain from introducing external information or references. 5. Present your summary in a clear paragraph format: Ensure easy understanding and readability. 6. Give an adequate title to the summary and text. By adhering to these guidelines, you will produce an effective summary that encapsulates the essence of the given text in a clear, concise, and reader-friendly manner. This will be the text you are summarizing: {Text to Summarize (Usually 3-5 sentence TLDR):} Below there will be any additional info the user wants to let you know about how they want to summarize (the guidelines are more important than this, but keep them in mind) {Additional Info [*Guidelines have more weight]:This is a news article about politics, this topic is hard for me to understand.}`
-
-
-
 
 # ChatGPT  Prompt Improvement
 
