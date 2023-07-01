@@ -1,6 +1,22 @@
 Here is the cleaned and standardized version of the text:
+```
+sudo systemctl status nginx
+sudo nginx -t
+sudo systemctl restart nginx
+./xray -c /usr/local/etc/xray/config.json
+sudo systemctl stop xray
+cd /usr/local/bin
+sudo systemctl restart xray
+sudo service nginx restart
+sudo service nginx stop
+sudo service nginx start
+sudo pkill nginx
+sudo service nginx start
+sudo lsof -i :80
+sudo lsof -i :8003
+```
 
-## Rush Fake Protocol VLESS-XTLS-uTLS-REALITY using Debian
+##  VLESS-XTLS-uTLS-REALITY using Debian
 
 ### System Updates and Required Packages
 1. `apt update && apt upgrade -y`
