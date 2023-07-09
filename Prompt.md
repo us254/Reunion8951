@@ -123,7 +123,7 @@ Output:
 Adding all the odd numbers (15, 5, 13, 7, 1) gives 41. The answer is False.
 
 Wow! We can see a perfect result when we provided the reasoning step. In fact, we can solve this task by providing even fewer examples, i.e., just one example seems enough:
-
+---
 
 
 # Using Special Symbols
