@@ -123,6 +123,26 @@ Output:
 Adding all the odd numbers (15, 5, 13, 7, 1) gives 41. The answer is False.
 
 Wow! We can see a perfect result when we provided the reasoning step. In fact, we can solve this task by providing even fewer examples, i.e., just one example seems enough:
+
+
+
+# Using Special Symbols
+
+```markdown
+# Using Special Symbols
+
+When you are summarizing or extracting information from text, you will often need to enter large paragraphs of text, or even multiple paragraphs of text. Here is a little trick that can help you improve the accuracy of AI feedback:
+
+- Use triple backticks (''') to separate instructions from text.
+- You can use other special characters like (*), (/), (;), (#), (```), etc.
+
+Put codes and computer commands in code box format.
 ```
 
 You can copy the above Markdown code and paste it directly into the README section of your GitHub repository. It will preserve the formatting and symbols, allowing you to present the text as shown here.
+
+"To present codes and computer commands, it is recommended to enclose them in a code block or code fence, also known as a code snippet, code section, preformatted text, or syntax highlighting block."
+
+
+
+
