@@ -71,13 +71,13 @@ Consider the following multi-step reasoning problem:
 **Question:** If a store has 10 apples and 8 oranges, and it sells 6 apples and 4 oranges, how many fruits are left in the store?
 
 **Chain of Thought:**
-The store has 10 apples.
-The store sells 6 apples.
-The store has 4 apples left.
-The store has 8 oranges.
-The store sells 4 oranges.
-The store has 4 oranges left.
-The store has 4 + 4 = 8 fruits left.
+- The store has 10 apples.
+- The store sells 6 apples.
+- The store has 4 apples left.
+- The store has 8 oranges.
+- The store sells 4 oranges.
+- The store has 4 oranges left.
+- The store has 4 + 4 = 8 fruits left.
 
 **Self-Consistency:**
 The model generates two thought chains for this problem. The first thought chain is shown above. The second thought chain is the same, except that the order of the steps is reversed.
