@@ -88,3 +88,42 @@ print(solve(200, 93, 39, 6))
 The LLM would then be asked to generate a response to this prompt. The response would be a Python code snippet that implements the `solve()` function. The `solve()` function would then be executed by a Python interpreter, and the output of the function would be returned. In this case, the output of the function would be 74.
 ```
 
+
+---
+
+Certainly! Here's the given text in Markdown format:
+
+```markdown
+# Chain-of-Thought Prompting for Complex Reasoning
+
+Chain-of-thought (CoT) prompting enables complex reasoning capabilities through intermediate reasoning steps. You can combine it with few-shot prompting to get better results on more complex tasks that require reasoning before responding.
+
+## Prompt:
+
+The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1.
+
+**A:** Adding all the odd numbers (9, 15, 1) gives 25. The answer is False.
+
+The odd numbers in this group add up to an even number: 17, 10, 19, 4, 8, 12, 24.
+
+**A:** Adding all the odd numbers (17, 19) gives 36. The answer is True.
+
+The odd numbers in this group add up to an even number: 16, 11, 14, 4, 8, 13, 24.
+
+**A:** Adding all the odd numbers (11, 13) gives 24. The answer is True.
+
+The odd numbers in this group add up to an even number: 17, 9, 10, 12, 13, 4, 2.
+
+**A:** Adding all the odd numbers (17, 9, 13) gives 39. The answer is False.
+
+The odd numbers in this group add up to an even number: 15, 32, 5, 13, 82, 7, 1. 
+
+**A:**
+Output:
+
+Adding all the odd numbers (15, 5, 13, 7, 1) gives 41. The answer is False.
+
+Wow! We can see a perfect result when we provided the reasoning step. In fact, we can solve this task by providing even fewer examples, i.e., just one example seems enough:
+```
+
+You can copy the above Markdown code and paste it directly into the README section of your GitHub repository. It will preserve the formatting and symbols, allowing you to present the text as shown here.
