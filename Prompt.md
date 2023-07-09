@@ -12,38 +12,6 @@
 ***
 
 
-
-
-# PAL MODEL
-```
-### Instruction
-First, decompose the problem into a sequence of steps, and then generate code for each step. The code is then executed by a runtime environment, such as a Python interpreter.
-
-For example:
-
-**Question:**
-The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left?
-
-**Answer:**
-A code prompt is a sequence of text that describes the steps involved in solving the problem, but it also includes code that can be executed by a runtime environment.
-
-For example, the following code prompt could be used to solve the above problem:
-
-```python
-def solve(baked_loaves, sold_in_morning, sold_in_afternoon, returned_loaves):
-    total_sold = sold_in_morning + sold_in_afternoon
-    total_loaves = baked_loaves - total_sold + returned_loaves
-    return total_loaves
-
-print(solve(200, 93, 39, 6))
-```
-
-The LLM would then be asked to generate a response to this prompt. The response would be a Python code snippet that implements the `solve()` function. The `solve()` function would then be executed by a Python interpreter, and the output of the function would be returned.
-
-
-
-
-
 ---
 
 # Guide
@@ -86,7 +54,6 @@ The model then evaluates both thought chains and selects the one that is most co
 
 ---
 
-Certainly! Here's the given text in Markdown format:
 
 ```markdown
 # Problem Analysis and Learning (PAL)
@@ -119,4 +86,3 @@ print(solve(200, 93, 39, 6))
 The LLM would then be asked to generate a response to this prompt. The response would be a Python code snippet that implements the `solve()` function. The `solve()` function would then be executed by a Python interpreter, and the output of the function would be returned. In this case, the output of the function would be 74.
 ```
 
-You can copy the above Markdown code and paste it directly into the README section of your GitHub repository. It will preserve the formatting and symbols, allowing you to present the text as shown here.
