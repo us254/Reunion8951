@@ -137,13 +137,12 @@ When you are summarizing or extracting information from text, you will often nee
 
 - Use triple backticks (''') to separate instructions from text.
 - You can use other special characters like (*), (/), (;), (#), (```), etc.
+-"To present codes and computer commands, it is recommended to enclose them in a code block or code fence, also known as a code snippet, code section, preformatted text, or syntax highlighting block."
 
-Put codes and computer commands in code box format.
+
 ```
 
-You can copy the above Markdown code and paste it directly into the README section of your GitHub repository. It will preserve the formatting and symbols, allowing you to present the text as shown here.
 
-"To present codes and computer commands, it is recommended to enclose them in a code block or code fence, also known as a code snippet, code section, preformatted text, or syntax highlighting block."
 
 
 
