@@ -14,7 +14,7 @@
 
 ---
 
-# Guide
+# Zero-shot COT Prompting
 
 ## Let's think step by step.
 
@@ -86,12 +86,11 @@ print(solve(200, 93, 39, 6))
 ```
 
 The LLM would then be asked to generate a response to this prompt. The response would be a Python code snippet that implements the `solve()` function. The `solve()` function would then be executed by a Python interpreter, and the output of the function would be returned. In this case, the output of the function would be 74.
-```
 
 
 ---
 
-Certainly! Here's the given text in Markdown format:
+# Chain-of-Thought Prompting for Complex Reasoning
 
 ```markdown
 # Chain-of-Thought Prompting for Complex Reasoning
