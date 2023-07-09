@@ -141,13 +141,14 @@ When you are summarizing or extracting information from text, you will often nee
 
 
 ```
+----
 
 # Review
-'''
+```
 Review your previous answer and find problems with your answer.
 
 Based on the problems you found, improve your answer. If there are no more problems with your answer, respond 'Complete'.
-'''
+```
 
 Quite often, the next generated answer is of much higher quality than the first one and hallucinations are often detected
 
