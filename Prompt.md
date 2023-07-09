@@ -61,5 +61,4 @@ The following guide will provide you with a step-by-step process:
 
 > Note: Pay attention to the symbols and signs used in the guide.
 
-Feel free to copy this text into your GitHub README and it will preserve the formatting and symbols.
 ***
