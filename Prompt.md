@@ -84,3 +84,39 @@ The model generates two thought chains for this problem. The first thought chain
 
 The model then evaluates both thought chains and selects the one that is most consistent with the evidence. In this case, both thought chains are consistent, so the model selects the first thought chain as the final answer.
 
+---
+
+Certainly! Here's the given text in Markdown format:
+
+```markdown
+# Problem Analysis and Learning (PAL)
+
+To illustrate how PAL works, let's consider the following problem:
+
+The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left?
+
+A traditional approach to solving this problem would be to use a chain-of-thought prompt. This would involve generating a sequence of text that describes the steps involved in solving the problem. For example, the following chain-of-thought prompt could be used to solve the above problem:
+
+1. What is the total number of loaves of bread that the bakers baked?
+2. What is the number of loaves of bread that the bakers sold in the morning?
+3. What is the number of loaves of bread that the bakers sold in the afternoon?
+4. What is the number of loaves of bread that the grocery store returned?
+5. What is the total number of loaves of bread that the bakers have left?
+
+The LLM would then be asked to generate a response to each prompt. The responses would then be combined to form a final answer. In this case, the final answer would be 74.
+
+The PAL approach is different. Instead of generating a chain-of-thought prompt, the PAL approach generates a code prompt. A code prompt is a sequence of text that describes the steps involved in solving the problem, but it also includes code that can be executed by a runtime environment. For example, the following code prompt could be used to solve the above problem:
+
+```python
+def solve(baked_loaves, sold_in_morning, sold_in_afternoon, returned_loaves):
+  total_sold = sold_in_morning + sold_in_afternoon
+  total_loaves = baked_loaves - total_sold + returned_loaves
+  return total_loaves
+
+print(solve(200, 93, 39, 6))
+```
+
+The LLM would then be asked to generate a response to this prompt. The response would be a Python code snippet that implements the `solve()` function. The `solve()` function would then be executed by a Python interpreter, and the output of the function would be returned. In this case, the output of the function would be 74.
+```
+
+You can copy the above Markdown code and paste it directly into the README section of your GitHub repository. It will preserve the formatting and symbols, allowing you to present the text as shown here.
