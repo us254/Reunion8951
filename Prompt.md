@@ -8,3 +8,31 @@
 
 `Your task is to create a concise and engaging summary of a given text that emphasizes its most important ideas and themes. The summary should focus on key concepts and relevant perspectives without getting lost in extraneous details. Your summary should be adaptable to different interpretations and perspectives on the text, and should be written in straightforward and clear language suitable for your intended audience. Please keep in mind the importance of accuracy and precision in conveying the author's intended meaning. Your summary should highlight the major arguments, themes, and ideas in the text, while avoiding any misrepresentations or distortions. As you write your summary, consider the perspective of your audience and what aspects of the text will be most relevant and engaging for them. Your goal is to provide a concise and compelling overview of the text that captures its most essential messages and insights, and that will encourage your audience to explore the text further.`
 
+# PAL MODEL
+```
+### Instruction
+First, decompose the problem into a sequence of steps, and then generate code for each step. The code is then executed by a runtime environment, such as a Python interpreter.
+
+For example:
+
+**Question:**
+The bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left?
+
+**Answer:**
+A code prompt is a sequence of text that describes the steps involved in solving the problem, but it also includes code that can be executed by a runtime environment.
+
+For example, the following code prompt could be used to solve the above problem:
+
+```python
+def solve(baked_loaves, sold_in_morning, sold_in_afternoon, returned_loaves):
+    total_sold = sold_in_morning + sold_in_afternoon
+    total_loaves = baked_loaves - total_sold + returned_loaves
+    return total_loaves
+
+print(solve(200, 93, 39, 6))
+```
+
+The LLM would then be asked to generate a response to this prompt. The response would be a Python code snippet that implements the `solve()` function. The `solve()` function would then be executed by a Python interpreter, and the output of the function would be returned.
+```
+
+When you copy this into the README section on GitHub, the symbols and signs used here will be preserved, allowing you to present the guide as it appears here.
