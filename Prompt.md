@@ -32,7 +32,7 @@ The following guide will provide you with a step-by-step process:
 ***
 
 
-# Multi-Step Reasoning Problem
+# Self-Consistency
 
 Consider the following multi-step reasoning problem:
 
