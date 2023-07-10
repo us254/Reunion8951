@@ -69,7 +69,7 @@ Explanation: This is a command to install the Xray proxy tool on a Linux system,
 ```
 sudo wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202306132209/geoip.dat -P /usr/local/share/xray && sudo mv /usr/local/share/xray/geoip.dat /usr/local/share/xray/
 sudo wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202306132209/geosite.dat -P /usr/local/share/xray && sudo mv /usr/local/share/xray/geosite.dat /usr/local/share/xray/
-sudo wget https://github.com/bootmortis/iran-hosted-domains/releases/download/202306120031/iran.dat -P /usr/local/share/xray && sudo mv /usr/local/share/xray/geoip.dat /usr/local/share/xray/
+sudo wget https://github.com/bootmortis/iran-hosted-domains/releases/download/202307100033/iran.dat -P /usr/local/share/xray && sudo mv /usr/local/share/xray/geoip.dat /usr/local/share/xray/
 sudo wget https://github.com/us254/geoip/releases/download/v2.4/ir.dat -P /usr/local/share/xray && sudo mv /usr/local/share/xray/geoip.dat /usr/local/share/xray/
 
 Explanation: These are commands to download and install GeoIP databases for Xray from various sources, including LoyalSoldier, Bootmortis, and us254.
