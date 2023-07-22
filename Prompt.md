@@ -28,8 +28,8 @@ After you're done writing the other important points, ask "would you like me to 
 # Using Special Symbols
 
 When you are summarizing or extracting information from text, you will often need to enter large paragraphs of text, or even multiple paragraphs of text. Here is a little trick that can help you improve the accuracy of AI feedback:
-`
-- Use triple backticks (''') to separate instructions from text.
+
+`- Use triple backticks (''') to separate instructions from text.
 - You can use other special characters like (*), (/), (;), (#), (```), etc.
 -"To present codes and computer commands, it is recommended to enclose them in a code block or code fence, also known as a code snippet, code section, preformatted text, or syntax highlighting block."`
 
