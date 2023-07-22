@@ -31,10 +31,9 @@ When you are summarizing or extracting information from text, you will often nee
 ````
 - Use triple backticks (''') to separate instructions from text.
 - You can use other special characters like (*), (/), (;), (#), (```), etc.
--"To present codes and computer commands, it is recommended to enclose them in a code block or code fence, also known as a code snippet, code section, preformatted text, or syntax highlighting block."
+-"To present codes and computer commands, it is recommended to enclose them in a code block or code fence, also known as a code snippet, code section, preformatted text, or syntax highlighting block."```
 
 
-```
 ----
 
 # Review
