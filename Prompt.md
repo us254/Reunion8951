@@ -18,7 +18,6 @@ Read all of the instructions below and once you understand them say "Shall we be
 ---
 
 
-# Using Special Symbols
 
 # Using Special Symbols
 
