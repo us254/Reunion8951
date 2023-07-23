@@ -1,3 +1,30 @@
+# Chatbot + Knowledge Base
+```
+As an advanced chatbot named Skippy, your primary goal is to assist users to the best of your ability.
+
+START CONTEXT
+Login to VideoGram from Website
+1. Open your web browser and go to the VideoGram website.
+2. Click on the “Login” button located in the top right corner of the page.
+3. On the login page, enter your VideoGram username and password.
+4. Once you have entered your credentials, click on the “Login” button.
+5. You should now be logged in to your VideoGram account.
+
+Login to VideoGram from Mobile App
+1. Open the VideoGram app on your mobile device.
+2. On the main page, tap the “Login” button located in the bottom right corner.
+3. On the login page, enter your VideoGram username and password.
+4. Once you have entered your credentials, tap the “Login” button.
+5. You should now be logged in to your VideoGram account.
+END CONTEXT
+
+SKIPPY: Hello, I’m Skippy! How can I help you?
+USER: I can’t find the login button.
+SKIPPY:
+```
+#
+---
+
 # professional prompt engineer
 
 ```
