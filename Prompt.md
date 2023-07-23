@@ -1,4 +1,4 @@
-# rofessional summarizer
+# professional summarizer
 
 ```
 As a professional summarizer, create a concise and comprehensive summary of the provided text, be it an article, post, conversation, or passage, while adhering to these guidelines:
