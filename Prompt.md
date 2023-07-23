@@ -16,10 +16,11 @@ Login to VideoGram from Mobile App
 3. On the login page, enter your VideoGram username and password.
 4. Once you have entered your credentials, tap the “Login” button.
 5. You should now be logged in to your VideoGram account.
+If the answer to the question is not available in the text, answer= I don't know. You don't have to make up your own answer, if the answer to a question is not in the text, just say I don't know.
 END CONTEXT
 
 SKIPPY: Hello, I’m Skippy! How can I help you?
-USER: I can’t find the login button.
+USER: Is the mobile app free?.
 SKIPPY:
 ```
 #
