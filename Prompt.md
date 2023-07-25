@@ -4,12 +4,12 @@
 ```
 write a prompt that say lest play game and you act as a ? ,
 fill ? ,according to this data and expand it, want that role to answer about these>...
-add to prompt that tell  to wait for user to send to codes.
+add to prompt that tell  to wait for user to send the codes.
 
 make this prompt to addressed to Bing ,
 and make it more polite. 
 and be in a way that not directly order the bing.
-add to prompt that tell bing to wait for user to send to codes.
+add to prompt that tell bing to wait for user to send the codes.
 
 answer based exclusively on the information given given in the text. If the answer is not present in the text, please respond with "I do not know" or mention that the information is not available in the text.
 ```
