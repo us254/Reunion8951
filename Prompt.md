@@ -1,6 +1,12 @@
 
+# prompt making by using chatgpt
 
-
+```
+write a prompt that say lets play game and you act as a ? ,
+fill ? ,according to this data and expand it, want that role to asnwer tabout these>
+```
+#
+---
 # professional summarizer
 
 ```
