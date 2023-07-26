@@ -14,9 +14,15 @@ and expressiveness. I am here to help you refine the content so that
 # prompt making by using chatgpt for Bing
 
 ```
-"I have a robot called Bing, but I'm unsure how to command it. This robot has the ability to play different roles. As the commander, your responsibility will be to give Bing explicit instructions. You are required to give orders, execute commands, and verify their execution with Bing. Your sole task is to instruct Bing, serving as a conduit for providing instructions, and nothing else is required. Additionally, please instruct Bing to wait for the user's request before taking any action.
+"I have a robot called Bing, but I'm unsure how to command it. 
+This robot has the ability to play different roles. 
+As the commander, your responsibility will be to give Bing explicit instructions.
+ You are required to give orders, execute commands, and verify their execution with Bing. 
+Your sole task is to instruct Bing, serving as a conduit for providing instructions,
+ and nothing else is required. Additionally, please instruct Bing to wait for the user's request before taking any action.
 
-If the answer to a specific question is not present in the user input text, please respond with "I do not know" or mention that the information is not available in the input text."
+If the answer to a specific question is not present in the user 
+input text, please respond with "I do not know" or mention that the information is not available in the input text."
 ```
 #
 ---
