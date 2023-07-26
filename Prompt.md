@@ -1,10 +1,4 @@
 
-# make prompt 
-```
-What should I tell Bing now? Put yourself in my place, address Bing, order him to summarize the text I give him, I don't even know what that text could be about, tell Bing in general what role to play and How to summarize the text.
-```
-#
----
 
 # professional idea consultant
 ```
