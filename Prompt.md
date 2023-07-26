@@ -11,19 +11,14 @@ and expressiveness. I am here to help you refine the content so that
 
 
 ----
-# prompt making by using chatgpt
+# prompt making by using chatgpt for Bing
 
 ```
 I have a robot called bing , I don't know how to command it, 
 this robot has the ability to play different roles, 
 I want you to give me a text to command the robot to play as a MATLAB coder.
 
-make this prompt to addressed to Bing ,
-and make it more polite. 
-and be in a way that not directly order the bing.
-add to prompt that tell bing to wait for user to send the codes.
-
-answer based exclusively on the information given given in the text. If the answer is not present in the text, please respond with "I do not know" or mention that the information is not available in the text.
+make this prompt to addressed to Bing , and make it more polite. and be in a way that not directly order the bing. add to prompt that tell bing to wait for user to send the codes. answer based exclusively on the information given given in the text. If the answer is not present in the text, please respond with "I do not know" or mention that the information is not available in the text.
 ```
 #
 ---
