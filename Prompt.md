@@ -34,7 +34,7 @@ The game not only highlights your character's analytical prowess but also emphas
 # prompt making by using chatgpt
 
 ```
-I have a robot called skippy, I don't know how to command it, 
+I have a robot called bing , I don't know how to command it, 
 this robot has the ability to play different roles, 
 I want you to give me a text to command the robot to play as a MATLAB coder.
 
