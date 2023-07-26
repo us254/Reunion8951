@@ -34,9 +34,9 @@ The game not only highlights your character's analytical prowess but also emphas
 # prompt making by using chatgpt
 
 ```
-write a prompt that say lets play game and you act as a ? ,
-fill ? ,according to this data and expand it, want that role to answer about these>...
-add to prompt that tell  to wait for user to send the codes.
+I have a robot called skippy, I don't know how to command it, 
+this robot has the ability to play different roles, 
+I want you to give me a text to command the robot to play as a MATLAB coder.
 
 make this prompt to addressed to Bing ,
 and make it more polite. 
