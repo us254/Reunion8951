@@ -67,10 +67,11 @@ Explanation: This is a command to install the Xray proxy tool on a Linux system,
 ### GeoIP Databases
 
 ```
-sudo wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202307102210/geoip.dat -P /usr/local/share/xray && sudo mv /usr/local/share/xray/geoip.dat /usr/local/share/xray/
-sudo wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202307102210/geosite.dat -P /usr/local/share/xray && sudo mv /usr/local/share/xray/geosite.dat /usr/local/share/xray/
-sudo wget https://github.com/bootmortis/iran-hosted-domains/releases/download/202307100033/iran.dat -P /usr/local/share/xray && sudo mv /usr/local/share/xray/geoip.dat /usr/local/share/xray/
-sudo wget https://github.com/us254/geoip/releases/download/v2.5/ir.dat -P /usr/local/share/xray && sudo mv /usr/local/share/xray/geoip.dat /usr/local/share/xray/
+wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202307272208/geosite.dat && sudo mv geosite.dat /usr/local/bin/
+wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202307272208/geoip.dat && sudo mv geoip.dat /usr/local/bin/
+wget https://github.com/bootmortis/iran-hosted-domains/releases/download/202307240030/iran.dat && sudo mv iran.dat /usr/local/bin/
+wget https://github.com/us254/geoip/releases/download/v2.5/ir.dat && sudo mv ir.dat /usr/local/bin/
+
 
 Explanation: These are commands to download and install GeoIP databases for Xray from various sources, including LoyalSoldier, Bootmortis, and us254.
 ```
