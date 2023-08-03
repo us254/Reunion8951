@@ -1,4 +1,4 @@
-Sure, here's your text converted to Markdown format:
+Sure, 
 
 ```markdown
 ## Cloudflare Worker Deployment
