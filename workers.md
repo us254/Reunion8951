@@ -42,3 +42,7 @@ Remember to replace `https://workerdomain/uuid` with the actual worker address y
 ```
 
 Please replace `"https://workerdomain/uuid"` with the actual worker address you receive after deploying the Cloudflare Worker. This Markdown text provides you with step-by-step instructions on deploying the JavaScript code on Cloudflare Worker and utilizing the worker's address in a JSON configuration.
+
+Domain Extraction from ProxyIP from js code.
+
+or from https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html 
