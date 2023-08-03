@@ -10,15 +10,7 @@ To deploy the following JavaScript code on Cloudflare Worker and access its conf
 3. Deploy the worker.
 
 ```javascript
-addEventListener('fetch', event => {
-  event.respondWith(handleRequest(event.request));
-});
-
-async function handleRequest(request) {
-  // Your code logic here
-  // Fetch and process data
-  // Return response
-}
+https://github.com/3Kmfi6HP/EDtunnel/blob/main/_worker.js
 ```
 
 4. After deployment, note down the worker address (e.g., `https://workerdomain/uuid`).
@@ -26,10 +18,10 @@ async function handleRequest(request) {
 5. Create a JSON configuration using the obtained worker address:
 
 ```json
-{
-  "workerAddress": "https://workerdomain/uuid",
-  "otherConfigKey": "otherConfigValue"
-}
+
+  "workerdomain/uuid",
+  
+
 ```
 
 6. Replace `"https://workerdomain/uuid"` with the actual worker address.
