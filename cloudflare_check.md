@@ -24,38 +24,9 @@ Follow these steps to run the Python script:
 
 1. Open a text editor (e.g., Notepad) and paste the Python code provided below:
 
-   ```
-   import dns.resolver
 
-def is_cloudflare(domain):
-    cloudflare_domain_suffix = "cloudflare.com."
 
-    try:
-        answers = dns.resolver.resolve(domain, 'NS')
-        name_servers = [str(ns) for ns in answers]
 
-        for ns in name_servers:
-            if ns.lower().endswith(cloudflare_domain_suffix):
-                return True
-
-        return False
-
-    except dns.exception.DNSException:
-        return False
-
-# Ask the user to enter multiple domains separated by commas
-user_input = input("Enter multiple domains separated by commas (e.g., example.com, anotherdomain.com): ")
-domains_to_check = [domain.strip() for domain in user_input.split(',')]
-
-# Check each domain and print the result
-for domain in domains_to_check:
-    result = is_cloudflare(domain)
-    if result:
-        print(f"The domain '{domain}' is behind Cloudflare.")
-    else:
-        print(f"The domain '{domain}' is not behind Cloudflare.")
-
-   ```
 
 2. Save the file with a `.py` extension, for example, `cloudflare_check.py`.
 
