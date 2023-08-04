@@ -23,7 +23,10 @@ Open a Command Prompt (CMD) and follow these steps to install the required depen
 Follow these steps to run the Python script:
 
 1. Open a text editor (e.g., Notepad) and paste the Python code provided below:
-```import dns.resolver
+
+```
+
+import dns.resolver
 
 def is_cloudflare(domain):
     cloudflare_domain_suffix = "cloudflare.com."
@@ -52,8 +55,9 @@ for domain in domains_to_check:
         print(f"The domain '{domain}' is behind Cloudflare.")
     else:
         print(f"The domain '{domain}' is not behind Cloudflare.")
-```
 
+
+```
 
 
 
