@@ -74,5 +74,5 @@ The script will execute and print whether the specified domains are behind Cloud
 Congratulations! You have successfully checked if domains are behind Cloudflare using the Python script.
 
 
-```
+
 
