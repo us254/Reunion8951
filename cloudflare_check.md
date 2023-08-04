@@ -1,6 +1,5 @@
- This tutorial provides instructions for running the Python script to check if domains are behind Cloudflare on a Windows system, along with the commands to install the necessary dependencies.
 
-```markdown
+```
 # Checking if Domains are Behind Cloudflare - Windows Tutorial
 
 This tutorial guides you through the process of running a Python script to check if domains are behind Cloudflare on a Windows system. We'll use the `dnspython` library to perform DNS queries.
